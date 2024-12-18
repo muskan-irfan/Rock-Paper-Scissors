@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+     text-align: center;
+}
+h1{
+    background-color: darkslategrey;
+    color: white;
+    height: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   line-height: 5rem;
+    
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choices{
+    height: 160px;
+    width: 160px;
+    display: inline-block;
+    margin-top: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px ;
+   
+}
+.choices:hover{
+   cursor: pointer;
+    background-color: black;
+}
+#rock :hover{
+    background-color: white;
+}
+.msgbox{
+ background-color: darkslategrey;
+ color: white;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin-top: 40px;
+ padding: 10px;
+ display: inline-block;
+ border-radius: 10px;
+   
+}
+.score{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+#userScore, #compScore {
+    font-size: 3rem;
+}
+
+
